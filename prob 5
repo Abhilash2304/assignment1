@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	float num;
+	scanf ("%f",num);
+	printf ("2*num=");
+	printf ("%f",2*num);
+	printf ("2*3.14*num=");
+	printf ("%f",2*3.14*num);
+	printf ("3.14*num*num=");
+	printf ("%f",3.14*num*num);
+	
+	return 0;
+}
