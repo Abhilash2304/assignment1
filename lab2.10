@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	float math, phy, che, bio, eng, ave, total, per;
+	scanf ("%f", &math);
+	scanf ("%f", &phy);
+	scanf ("%f", &che);
+	scanf ("%f", &bio);
+	scanf ("%f", &eng);
+	scanf ("%f", &total);
+	scanf ("%f", &ave);
+	scanf ("%f", &per);
+	printf ("value of total=");
+	printf ("%f", total = math+phy+che+bio+eng);
+	printf ("value of average=");
+	printf ("%f", ave = total/5);
+	printf ("value of percentage=");
+	printf ("%f", per=(total*100)/500);
+
+	return 0;
+}

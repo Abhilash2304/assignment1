@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	float P, T, R, A;
+	scanf ("%f", &P);//principal
+	scanf ("%f", &T);//time
+	scanf ("%f", &R);//rate
+	printf ("the value of amount =1");
+	printf ("%f", A=P*(1+T*R/100));
+	
+	return 0;
+}
